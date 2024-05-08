@@ -1,12 +1,14 @@
 import { useState } from "react";
 import ButtonGradient from "./assets/svg/ButtonGradient";
-import reactLogo from "./assets/react.svg";
+import Footer from "./components/Footer";
 import Pricing from "./components/Pricing";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Benefits from "./components/Benefits";
 import Collaboration from "./components/Collaboration";
 import Services from "./components/Services";
+import Roadmap from "./components/Roadmap";
+
 const App = () => {
   const [count, setCount] = useState(0);
 
@@ -19,6 +21,8 @@ const App = () => {
         <Collaboration />
         <Services />
         <Pricing />
+        <Roadmap />
+        <Footer />
       </div>
       <ButtonGradient />
     </>
